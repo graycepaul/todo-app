@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <p class="purple">
+          <i class="fa-solid fa-arrow-left"></i>Back to lists
+        </p>
+      </div>
+      <div class="header">
+        <h1>TODAY</h1>
+        <div class="add-item">+</div>
+      </div>
+      <progress-bar></progress-bar>
+
+      <checkbox-with-label>Meditation</checkbox-with-label>
+      <checkbox-with-label>Pick up Anna</checkbox-with-label>
+      <checkbox-with-label>Set up meeting with Jay</checkbox-with-label>
+      <checkbox-with-label>Finish Daily Ui</checkbox-with-label>
+      <checkbox-with-label>Second edits on article</checkbox-with-label>
+      <checkbox-with-label>Email Chris</checkbox-with-label>
+
+      <hr />
+
+      <div class="log">
+        <h3>Pull from recurring lists</h3>
+        <div class="period-log">
+          <custom-button class="period daily">Daily</custom-button>
+          <custom-button class="period weekly">Weekly</custom-button>
+          <custom-button class="period monthly">Monthly</custom-button>
+          <custom-button class="period occasionally">Occasional</custom-button>
+        </div>
+      </div>
+    </main>
+
+    <script src="checkbox.js"></script>
+    <script src="progressbar.js"></script>
+    <script src="custombtns.js"></script>
+  </body>
+</html>

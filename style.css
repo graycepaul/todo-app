@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e5e5f5;
+    color: #929292;
+}
+main {
+    width: 400px;
+    height: 850px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 20px#D0CAE9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;    font-size: 16px;
+    font-weight: 700;
+}
+.fa-solid {
+    margin-right: 10px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 46px;
+}
+p {
+    font-size: 20px;
+}
+.add-item {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #B3B3EF;
+    color: #B3B3EF;
+    border-radius: 50%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    background-color: #e9e6e6;
+    padding: 0.3px;
+    border: none;
+    width: 100%;
+}
+.purple {
+    color: #B3B3EF;
+}
+.period-log {
+    width: 320px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+.period {
+    border-radius: 40px;
+}
+.daily {
+    background-color: #F5ED84;
+}
+.weekly {
+    background-color: #b5ea81;
+}.monthly {
+    background-color: #F8AAAA;
+}.occasionally {
+    background-color: #B3B3EF;
+}
